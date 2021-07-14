@@ -6,10 +6,10 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #000000;
+    background: #ffffff;
     font-family: consolas;
 }
-/* .neon
+ .neon
 {
     position: relative;
     display: inline-block;
@@ -21,6 +21,7 @@ body
     overflow: hidden;
     transition: 0.2s;
     text-shadow: 0 0 20px #2196f3;
+    -webkit-box-reflect: below 1px linear-gradient(#2196f3,#2196f3);
 }
 .neon::after
 {
@@ -112,6 +113,7 @@ body
     overflow: hidden;
     transition: 0.2s;
     text-shadow: 0 0 20px #ff0800;
+    -webkit-box-reflect: below 1px linear-gradient(#ff0800,#ff0800);
 }
 .neon2::after
 {
@@ -224,6 +226,7 @@ section .loader span
     width: 100%;
     height: 100%;
     transform: rotate(calc(18deg * var(--i)));
+    border-radius: 50%;
 }
 section .loader span::before
 {
@@ -255,7 +258,7 @@ section .loader span::before
         transform: scale(0);
     }
 
-} */
+} 
 #loader-container
 {
     width: 200px;
